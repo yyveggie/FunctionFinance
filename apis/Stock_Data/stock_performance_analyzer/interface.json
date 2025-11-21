@@ -1,0 +1,99 @@
+[
+    {
+        "interface_name": "stock_comment_detail_zhpj_lspf_em",
+        "description": "Get historical ratings and grades for a specified A-share stock",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "evaluation",
+            "grades",
+            "ratings",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_comment_detail_zlkp_jgcyd_em",
+        "description": "Get historical institutional participation values for a specified A-share stock",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "institution",
+            "participation",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_comment_detail_scrd_focus_em",
+        "description": "Get historical user attention index data for a specified A-share stock",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "evaluation",
+            "grades",
+            "ratings",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_comment_detail_scrd_desire_em",
+        "description": "Get the market participation willingness value for a specified A-share stock",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "participation",
+            "willingness",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_comment_detail_scrd_desire_daily_em",
+        "description": "Get the daily willingness change value for a specified A-share stock",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Specific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "willingness",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_comment_detail_scrd_cost_em",
+        "description": "Get the daily market cost for a specified A-share stock",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Specific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "willingness",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_comment_em",
+        "description": "Get the latest rating data for all A-share stocks",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "rating",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    }
+]

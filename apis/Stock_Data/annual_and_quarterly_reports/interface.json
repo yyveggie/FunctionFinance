@@ -1,0 +1,136 @@
+[
+    {
+        "interface_name": "stock_yjbb_em",
+        "description": "Get the quarterly earnings reports for all stocks for the specified quarter",
+        "data_type": "Income Statements, Balance Sheets, Cash Flow Statements, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "Ratios",
+            "quarterly",
+            "earnings"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_yjyg_em",
+        "description": "Get the quarterly earnings forecast reports for all stocks for the specified quarter",
+        "data_type": "Forecast Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "earnings",
+            "forecast"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_disclosure_report_cninfo",
+        "description": "Get the disclosure announcement download links for the specified stock",
+        "data_type": "Company Announcements",
+        "specific_or_all": "Specific",
+        "frequency": "Reportly",
+        "additional_keywords": [
+            "disclosure"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_disclosure_relation_cninfo",
+        "description": "Get the disclosure research reports download links for the specified stock",
+        "data_type": "Company Announcements",
+        "specific_or_all": "Specific",
+        "frequency": "Reportly",
+        "additional_keywords": [
+            "disclosure"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_industry_category_cninfo",
+        "description": "Get industry classification list data using various industry classification standards",
+        "data_type": "Stock Lists",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "industry",
+            "classification"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_share_change_cninfo",
+        "description": "Get the stock/equity capital change data for the specified stock within the specified time range",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "capital",
+            "change",
+            "equity",
+            "Shareholding"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_allotment_cninfo",
+        "description": "Get the stock or equity capital change data for the specified stock within the specified time range",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "capital",
+            "change",
+            "equity",
+            "Shareholding"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zcfz_em",
+        "description": "Get the balance sheets of all A-share stocks at the specified date",
+        "data_type": "Balance Sheets",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "Balance",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_lrb_em",
+        "description": "Get the income statements of all A-share stocks at the specified date",
+        "data_type": "Income Statements",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "Income",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_xjll_em",
+        "description": "Get the cash flow statements of all A-share stocks at the specified date",
+        "data_type": "Cash Flow Statements",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "Cash",
+            "Flow",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    }
+]

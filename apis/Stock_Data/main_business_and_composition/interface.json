@@ -1,0 +1,44 @@
+[
+    {
+        "interface_name": "stock_zyjs_ths",
+        "description": "Get the main business introduction data for a specified stock",
+        "data_type": "Company/Stock Profile",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "introduction",
+            "composition",
+            "business"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zygc_em",
+        "description": "Get the main business composition data for a specified stock",
+        "data_type": "Company/Stock Profile",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "introduction",
+            "business",
+            "composition"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zygc_ym",
+        "description": "Get the main business composition data for a specified stock",
+        "data_type": "Company/Stock Profile, Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "introduction",
+            "business",
+            "composition"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    }
+]

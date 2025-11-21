@@ -1,0 +1,103 @@
+[
+    {
+        "interface_name": "stock_zt_pool_em",
+        "description": "Get market data of stocks that hit the limit up for the specified date",
+        "data_type": "Market Indices and Sentiment Data, Volume and Transaction Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "limit",
+            "up"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zt_pool_previous_em",
+        "description": "Get the data for the stock pool that hit the daily limit the day before a specified date in the A-share market",
+        "data_type": "Market Indices and Sentiment Data, Volume and Transaction Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "limit",
+            "up",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zt_pool_strong_em",
+        "description": "Get the data for the strong stock pool on a specified date in the A-share market",
+        "data_type": "Market Indices and Sentiment Data, Volume and Transaction Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "limit",
+            "up",
+            "strong",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zt_pool_sub_new_em",
+        "description": "Get the data for the sub-new stock pool on a specified date in the A-share market",
+        "data_type": "Market Indices and Sentiment Data, Volume and Transaction Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "limit",
+            "up",
+            "sub-new",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zt_pool_zbgc_em",
+        "description": "Get the data for the burst limit stock pool on a specified date in the A-share market",
+        "data_type": "Market Indices and Sentiment Data, Volume and Transaction Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "limit",
+            "up",
+            "burst",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zt_pool_dtgc_em",
+        "description": "Get the data for the stock pool that hit the daily limit down on a specified date in the A-share market",
+        "data_type": "Market Indices and Sentiment Data, Volume and Transaction Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "limit",
+            "down",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_market_activity_legu",
+        "description": "Get current money-making effect analysis data",
+        "data_type": "Market Indices and Sentiment Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "money-making",
+            "limit",
+            "up",
+            "down"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    }
+]

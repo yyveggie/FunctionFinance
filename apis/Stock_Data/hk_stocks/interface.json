@@ -1,0 +1,81 @@
+[
+    {
+        "interface_name": "stock_hk_hist",
+        "description": "Get specific time range market data for specified Hong Kong Stock Exchange stock",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Daily, Weekly, Monthly",
+        "additional_keywords": [
+            "-",
+            "HKEX"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hk_daily",
+        "description": "Get all historical market data for specified Hong Kong Stock Exchange stock",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "-",
+            "HKEX"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hk_main_board_spot_em",
+        "description": "Get real-time market data for the Hong Kong Stock Exchange main board",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "main",
+            "board",
+            "HKEX"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hk_spot_em",
+        "description": "Get real-time market data for all Hong Kong Stock Exchange stocks",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "-",
+            "HKEX"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hk_spot",
+        "description": "Get real-time market data for all Hong Kong Stock Exchange stocks",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "-",
+            "HKEX"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hk_hist_min_em",
+        "description": "Get intraday data for specified trading days within a specified time range for a stock on the Hong Kong Stock Exchange",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Intraday, Minutely",
+        "additional_keywords": [
+            "-",
+            "HKEX"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "Hong Kong"
+    }
+]

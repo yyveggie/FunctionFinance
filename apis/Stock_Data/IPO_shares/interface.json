@@ -1,0 +1,16 @@
+[
+    {
+        "interface_name": "stock_ipo_benefit_ths",
+        "description": "Get all market data for the most recent trading day of A-share new stocks that benefited from new IPOs",
+        "data_type": "Investment Portfolio Statements, Initial Public Offerings Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "new",
+            "ipo",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "interface_name": "stock_changes_em",
+        "description": "Get the latest trading day's market anomaly data for a specified type of anomaly",
+        "data_type": "Investor Sentiment and Behavior, Market Indices and Sentiment Data, Technical Analysis Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "unusual",
+            "trading",
+            "movement",
+            "anomaly"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_board_change_em",
+        "description": "Get the details of sector anomalies for the latest trading day",
+        "data_type": "Investor Sentiment and Behavior, Market Indices and Sentiment Data, Technical Analysis Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "unusual",
+            "trading",
+            "movement",
+            "anomaly",
+            "sector"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    }
+]

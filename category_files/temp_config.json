@@ -1,0 +1,49 @@
+{
+    "company_en": [
+        [
+            "Alibaba"
+        ]
+    ],
+    "company_cn": [
+        [
+            "阿里巴巴"
+        ]
+    ],
+    "listing_exchange": [
+        [
+            "NYSE"
+        ],
+        [
+            "HKEX"
+        ]
+    ],
+    "ticker": [
+        [
+            "BABA"
+        ],
+        [
+            "9988"
+        ]
+    ],
+    "cryptocurrency": null,
+    "start_date": null,
+    "end_date": null,
+    "specific_date": null,
+    "year": null,
+    "frequency": null,
+    "timeframe": null,
+    "quarter": null,
+    "country": [
+        [
+            "us"
+        ]
+    ],
+    "keyword_cn": [
+        "阿里巴巴",
+        "股票"
+    ],
+    "keyword_en": [
+        "Alibaba",
+        "stock"
+    ]
+}

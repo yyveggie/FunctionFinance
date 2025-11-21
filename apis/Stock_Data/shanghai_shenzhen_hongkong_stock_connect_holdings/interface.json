@@ -1,0 +1,167 @@
+[
+    {
+        "interface_name": "stock_sgt_settlement_exchange_rate_szse",
+        "description": "Get settlement exchange rate information for Shenzhen-Hong Kong Stock Connect",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "settlement",
+            "connect",
+            "HKEX",
+            "Shenzhen"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "SZSE, HKEX"
+    },
+    {
+        "interface_name": "stock_sgt_settlement_exchange_rate_sse",
+        "description": "Get settlement exchange rate information for Shanghai-Hong Kong Stock Connect",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "settlement",
+            "connect",
+            "HKEX",
+            "Shanghai"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "SSE, HKEX"
+    },
+    {
+        "interface_name": "stock_sgt_reference_exchange_rate_szse",
+        "description": "Get all Shenzhen-Hong Kong Stock Connect reference exchange rate data",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "reference",
+            "connect",
+            "HKEX",
+            "Shenzhen"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "SZSE, HKEX"
+    },
+    {
+        "interface_name": "stock_sgt_reference_exchange_rate_sse",
+        "description": "Get all Shanghai-Hong Kong Stock Connect reference exchange rate data",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "reference",
+            "connect",
+            "HKEX",
+            "Shanghai"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "SSE, HKEX"
+    },
+    {
+        "interface_name": "stock_hk_ggt_components_em",
+        "description": "Get all Hong Kong Stock Connect constituent stock quote data",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "constituent",
+            "quote",
+            "HKEX"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hsgt_fund_min_em",
+        "description": "Get Shanghai-Shenzhen-Hong Kong Stock Connect intraday data",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "intraday",
+            "HKEX",
+            "Shenzhen",
+            "Shanghai"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "SSE, SZSE, HKEX"
+    },
+    {
+        "interface_name": "stock_hsgt_hold_stock_em",
+        "description": "Get the individual stock rankings of Shanghai-Shenzhen-Hong Kong Stock Connect holdings within a specified time period",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "ranking",
+            "HKEX",
+            "Shenzhen",
+            "Shanghai"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "SSE, SZSE, HKEX"
+    },
+    {
+        "interface_name": "stock_hsgt_stock_statistics_em",
+        "description": "Get all Shanghai-Shenzhen-Hong Kong Stock Connect holdings data within a specified time period",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "holdings",
+            "HKEX",
+            "Shenzhen",
+            "Shanghai"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "SSE, SZSE, HKEX"
+    },
+    {
+        "interface_name": "stock_hsgt_institution_statistics_em",
+        "description": "Get data on changes in the number of shares held by different institutions in the Shanghai-Shenzhen-Hong Kong Stock Connect within a specified time period",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "number",
+            "institution",
+            "HKEX",
+            "Shenzhen",
+            "Shanghai"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "SSE, SZSE, HKEX"
+    },
+    {
+        "interface_name": "stock_hsgt_hist_em",
+        "description": "Get all historical quote data for Shanghai-Shenzhen-Hong Kong Stock Connect",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "-",
+        "frequency": "-",
+        "additional_keywords": [
+            "-",
+            "HKEX",
+            "Shenzhen",
+            "Shanghai"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "SSE, SZSE, HKEX"
+    },
+    {
+        "interface_name": "stock_hsgt_individual_em",
+        "description": "Get recent data on the change in market value of holdings for a specified stock in Shanghai-Shenzhen-Hong Kong Stock Connect",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "holdings",
+            "HKEX",
+            "Shenzhen",
+            "Shanghai"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "SSE, SZSE, HKEX"
+    }
+]

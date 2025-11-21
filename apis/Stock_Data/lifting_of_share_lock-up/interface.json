@@ -1,0 +1,66 @@
+[
+    {
+        "interface_name": "stock_restricted_release_queue_sina",
+        "description": "Get the all restricted sale lift data for a specified A-share stock",
+        "data_type": "Corporate Filings, Risk Management Data, Restricted Stock Information",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "restricted",
+            "release",
+            "lifting",
+            "lock-up",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_restricted_release_summary_em",
+        "description": "Get restricted sale lift data for a specified market sector within a specified time range",
+        "data_type": "Corporate Filings, Risk Management Data, Restricted Stock Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "restricted",
+            "release",
+            "lifting",
+            "lock-up"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_restricted_release_detail_em",
+        "description": "Get data on the lifting of share sale restrictions for A-share stocks within a specified period",
+        "data_type": "Corporate Filings, Risk Management Data, Restricted Stock Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "restricted",
+            "release",
+            "lifting",
+            "lock-up",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_restricted_release_queue_em",
+        "description": "Get the data on the release batches for a specified A-share stock",
+        "data_type": "Corporate Filings, Risk Management Data, Restricted Stock Information",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "restricted",
+            "release",
+            "lifting",
+            "lock-up",
+            "batches",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    }
+]

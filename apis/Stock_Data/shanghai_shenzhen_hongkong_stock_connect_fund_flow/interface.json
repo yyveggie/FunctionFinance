@@ -1,0 +1,19 @@
+[
+    {
+        "interface_name": "stock_hsgt_fund_flow_summary_em",
+        "description": "Get Shanghai-Shenzhen-Hong Kong Stock Connect capital flow data",
+        "data_type": "Block Trading and Capital Flows Data, Economic Indicators, Foreign Exchange Rates",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "capital",
+            "fund",
+            "connect",
+            "HKEX",
+            "Shenzhen",
+            "Shanghai"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "SSE, SZSE, HKEX"
+    }
+]

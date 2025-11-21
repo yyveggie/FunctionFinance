@@ -1,0 +1,112 @@
+[
+    {
+        "interface_name": "stock_institute_recommend",
+        "description": "Get the list of rating information for stocks under different recommendation indicators in institutional recommendations",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports, Investment Portfolio Statements",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "institution",
+            "recommendation",
+            "indicator",
+            "agency",
+            "rating"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_institute_recommend_detail",
+        "description": "Get the rating information for a specified A-share stock from different rating agencies and analysts",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports, Investment Portfolio Statements",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "institutional",
+            "rating",
+            "recommendation",
+            "agency",
+            "analyst",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_forecast_cninfo",
+        "description": "Get the rating data from different institutions for a specified stock on a specified date in the A-share market",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports, Investment Portfolio Statements",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "institutions",
+            "rating",
+            "recommendation",
+            "agency",
+            "analyst",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_vote_baidu",
+        "description": "Get the voting data on the future price increase or decrease for a specified stock or index in the A-share market",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports, Investment Portfolio Statements",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "voting",
+            "rating",
+            "price",
+            "agency",
+            "analyst",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_profit_forecast_em",
+        "description": "Get future earnings or profit forecast data for all industries in the A-share market",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports, Investment Portfolio Statements, Forecast Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "earnings",
+            "forecast",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hk_profit_forecast_et",
+        "description": "Get future earnings or profit forecast data from different institutions for a specified stock in the Hong Kong Stock Exchange",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports, Investment Portfolio Statements, Forecast Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "earnings",
+            "forecast",
+            "HKEX"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_profit_forecast_ths",
+        "description": "Get future profit or earnings forecasts by lots of different institutions for a specified A-share stock",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports, Investment Portfolio Statements, Forecast Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "performance",
+            "forecast",
+            "A-Shares",
+            "profit"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    }
+]

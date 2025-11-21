@@ -1,0 +1,80 @@
+[
+    {
+        "interface_name": "stock_sse_summary",
+        "description": "Get an overview of stock market information for the most recent trading day from the Shanghai Stock Exchange",
+        "data_type": "Market Overview Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "overview",
+            "summary",
+            "SSE",
+            "Shanghai"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_szse_summary",
+        "description": "Get an overview of stock market information for the specific date from the Shenzhen Stock Exchange",
+        "data_type": "Market Overview Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "overview",
+            "summary",
+            "SZSE",
+            "Shenzhen"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_szse_area_summary",
+        "description": "Get the total trading volume by province in the Shenzhen Stock Exchange on the specified date",
+        "data_type": "Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "volume",
+            "province",
+            "SZSE",
+            "region",
+            "Shenzhen"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_szse_sector_summary",
+        "description": "Get transaction data for stock sectors from the Shenzhen Stock Exchange for a specified period",
+        "data_type": "Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Monthly, Annually",
+        "additional_keywords": [
+            "volume",
+            "transaction",
+            "SZSE",
+            "Shenzhen"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sse_deal_daily",
+        "description": "Get daily transaction summary data from the Shanghai Stock Exchange for a specified date",
+        "data_type": "Market Overview Information, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "summary",
+            "overview",
+            "SSE",
+            "volume",
+            "ratios",
+            "Shanghai"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    }
+]

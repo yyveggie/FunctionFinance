@@ -1,0 +1,368 @@
+[
+    {
+        "interface_name": "stock_ggcg_em",
+        "description": "Get the information on stock holding changes of senior executives for all A-share stocks",
+        "data_type": "Shareholder and Equity Information, Insider Trading and Shareholding Patterns, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "executive",
+            "holding",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_free_top_10_em",
+        "description": "Get information on the top 10 circulating shareholders of the specific stock on the specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "top",
+            "circulating",
+            "shareholders"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_top_10_em",
+        "description": "Get information on the top 10 shareholders of the specific stock on the specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "top",
+            "shareholders"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_free_holding_change_em",
+        "description": "Get the statistics on stock holding changes of the top 10 circulating shareholders for all A-share stocks on the specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "top",
+            "circulating",
+            "shareholders",
+            "holding",
+            "changes",
+            "statistic",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_holding_change_em",
+        "description": "Get the statistics on stock holding changes of the top 10 shareholders for all A-share stocks on the specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "top",
+            "shareholders",
+            "holding",
+            "changes",
+            "statistic",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_free_holding_analyse_em",
+        "description": "Get the analysis on stock holding of the top 10 circulating shareholders for all A-share stocks on the specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "top",
+            "circulating",
+            "shareholders",
+            "holding",
+            "analysis",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_holding_analyse_em",
+        "description": "Get the analysis on stock holding of the top 10 shareholders for all A-share stocks on the specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "top",
+            "shareholders",
+            "holding",
+            "analysis",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_free_holding_detail_em",
+        "description": "Get detailed information on stock holding of all circulating shareholders(including individuals, companies, funds, etc.) for a specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "circulating",
+            "shareholders",
+            "holding",
+            "individual"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_holding_detail_em",
+        "description": "Get detailed information on stock holding of any type of shareholders(Including individual, fund, QFII, social security, brokerage, trust) for a specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholders",
+            "individual",
+            "fund",
+            "QFII",
+            "brokerage",
+            "trust"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_free_holding_statistics_em",
+        "description": "Get the statistics on the price increase of all A-share stocks after the financial report release on a specified date by the top 10 circulating shareholders",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "top",
+            "circulating",
+            "shareholders",
+            "increase",
+            "holding",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_holding_statistics_em",
+        "description": "Get the statistics on the price increase of all A-share stocks after the financial report release on a specified date by the top 10 shareholders",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "top",
+            "shareholders",
+            "holding",
+            "increase",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_free_holding_teamwork_em",
+        "description": "Get data of the top 10 circulating synergistic shareholders for each any type of shareholders(Including 'all', 'individual', 'fund', 'QFII', 'social security', 'broker', 'trust')",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholders",
+            "top",
+            "synergy",
+            "circulating",
+            "fund",
+            "QFII",
+            "broker",
+            "trust"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gdfx_holding_teamwork_em",
+        "description": "Get data of the top 10 synergistic shareholders for each any type of shareholders(Including 'all', 'individual', 'fund', 'QFII', 'social security', 'broker', 'trust')",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholders",
+            "top",
+            "synergy",
+            "fund",
+            "QFII",
+            "broker",
+            "trust"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_gdhs_detail_em",
+        "description": "Get details on the holding changes of shareholders for a specified A-share stock",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholders",
+            "holding",
+            "changes",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_main_stock_holder",
+        "description": "Get information of all historical major shareholders of a specific A-share stock",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "major shareholders",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_share_hold_change_sse",
+        "description": "Get data of changes in shareholdings of directors, supervisors, and senior management personnel in a specified Shanghai Stock Exchange stock",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholdings",
+            "directors",
+            "supervisors",
+            "senior",
+            "management",
+            "SSE",
+            "Shanghai"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_share_hold_change_szse",
+        "description": "Get data of changes in shareholdings of directors, supervisors, and senior management personnel in a specified Shenzhen Stock Exchange stock",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholdings",
+            "directors",
+            "supervisors",
+            "senior",
+            "management",
+            "SZSE",
+            "Shenzhen"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_share_hold_change_bse",
+        "description": "Get data of changes in shareholdings of directors, supervisors, and senior management personnel in a specified Beijing Stock Exchange stock",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholdings",
+            "directors",
+            "supervisors",
+            "senior",
+            "management",
+            "BSE",
+            "Beijing"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hold_num_cninfo",
+        "description": "Get data on the number of shareholders and the concentration of shareholdings for all A-share stocks on a specified date",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "number",
+            "concentration",
+            "shareholders",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hold_control_cninfo",
+        "description": "Get data on the changes in shareholding of the actual controller for all A-share stocks",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "actual",
+            "controller",
+            "shareholding",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hold_management_detail_cninfo",
+        "description": "Get detailed data on changes in senior executives' shareholdings for all A-share stocks",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholding",
+            "changes",
+            "executive",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hold_management_detail_em",
+        "description": "Get historical detailed data on shareholding changes of directors, supervisors, senior executives, and related personnel for all A-share stocks",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "director",
+            "supervisor",
+            "senior",
+            "executive",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hold_management_person_em",
+        "description": "Get detailed information on the changes on shareholdings by a specific executive name in a specific stock",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information, Risk Management Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "executive"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    }
+]

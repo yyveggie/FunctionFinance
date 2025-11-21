@@ -1,0 +1,49 @@
+import configparser
+
+def load_config():
+    config = configparser.ConfigParser()
+    config.read('config.ini')
+    return config
+
+config = load_config()
+
+OPENAI_API_KEY = config['OPENAI']['API_KEY']
+GPT35 = config['OPENAI']['GPT35']
+GPT4 = config['OPENAI']['GPT4']
+GPT4O = config['OPENAI']['GPT4O']
+
+OPENAI_EMBEDDING = config['EMBEDDING']['OPENAI_EMBEDDING']
+
+GROQ_API_KEY = config['GROQ']['API_KEY']
+GROQ_LLAMA3_8B = config['GROQ']['LLAMA3_8B']
+GROQ_LLAMA3_70B = config['GROQ']['LLAMA3_70B']
+GROQ_MIXTRAL_8x7B = config['GROQ']['MIXTRAL_8x7B']
+GROQ_GEMMA_7B = config['GROQ']['GEMMA_7B']
+
+TOGETHER_API_KEY = config['TOGETHER']['API_KEY']
+TOGETHER_LLAMA3_8B = config['TOGETHER']['LLAMA3_8B']
+TOGETHER_LLAMA3_70B = config['TOGETHER']['LLAMA3_70B']
+TOGETHER_QWEN15_32B = config['TOGETHER']['QWEN15_32B']
+TOGETHER_NOUSHERMESLLAMA2_13B = config['TOGETHER']['NOUSHERMESLLAMA2_13B']
+
+COHERE_API_KEY = config['COHERE']['API_KEY']
+COMMAND_R_PLUS = config['COHERE']['COMMAND_R_PLUS']
+
+CLAUDE_HAIKU = config['CLAUDE']['HAIKU']
+CLAUDE_OPUS = config['CLAUDE']['OPUS']
+CLAUDE_API_KEY = config['CLAUDE']['API_KEY']
+
+FIREWORKS_API_KEY = config['FIREWORKS']["API_KEY"]
+FIREWORKS_HERMES2PRO_MISTRAL_7B = config['FIREWORKS']['HERMES2PRO_MISTRAL_7B']
+
+ZEN_API_KEY = config['ZEN']['API_KEY']
+BASE_URL = config["ZEN"]['BASE_URL']
+
+SEARCH_LEVEL = config["SETTINGS"]['SEARCH_LEVEL']
+SEARCH_WEB_NUM = config["SETTINGS"]['SEARCH_WEB_NUM']
+
+TOPIC = config["SETTINGS"]['TOPIC']
+
+FREEIMAGE_API_KEY = config["UPLOAD"]['FREEIMAGE_API_KEY']
+
+SERPAPI_API_KEY = config["SERPAPI"]["API_KEY"]

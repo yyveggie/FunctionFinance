@@ -1,0 +1,16 @@
+[
+    {
+        "interface_name": "stock_analyst_rank_em",
+        "description": "Get the evaluation data of all stock analysts index for the specified year",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "analyst",
+            "rank",
+            "evaluation"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    }
+]

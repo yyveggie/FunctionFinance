@@ -1,0 +1,76 @@
+[
+    {
+        "interface_name": "stock_margin_ratio_pa",
+        "description": "Get the margin trading data for a specified date in the A-share market",
+        "data_type": "Margin Trading and Short Selling Data, Venture Capital and Funding Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "margin",
+            "trading",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_margin_sse",
+        "description": "Get the summary data of margin trading for the Shanghai Stock Exchange within a specified time range",
+        "data_type": "Margin Trading and Short Selling Data, Venture Capital and Funding Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "margin",
+            "trading",
+            "SSE",
+            "Shanghai"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_margin_detail_sse",
+        "description": "Get the detailed margin trading data for all targets on the Shanghai Stock Exchange on a specified date",
+        "data_type": "Margin Trading and Short Selling Data, Venture Capital and Funding Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "margin",
+            "trading",
+            "SSE",
+            "Shanghai"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_margin_szse",
+        "description": "Get the summary data of margin trading for the Shenzhen Stock Exchange within a specified time range",
+        "data_type": "Margin Trading and Short Selling Data, Venture Capital and Funding Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "margin",
+            "trading",
+            "SZSE",
+            "Shenzhen"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_margin_detail_szse",
+        "description": "Get the detailed margin trading data for all targets on the Shenzhen Stock Exchange on a specified date",
+        "data_type": "Margin Trading and Short Selling Data, Venture Capital and Funding Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "margin",
+            "trading",
+            "SZSE",
+            "Shenzhen"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    }
+]

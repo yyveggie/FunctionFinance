@@ -1,0 +1,90 @@
+[
+    {
+        "interface_name": "stock_us_famous_spot_em",
+        "description": "Get real-time quote data for well-known stocks in a specified industry in the U.S. stock market",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "quote",
+            "well-known",
+            "volume",
+            "industry",
+            "US"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "US"
+    },
+    {
+        "interface_name": "stock_us_hist",
+        "description": "Get the quote data for a specified U.S. stock within a specified time range",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Monthly, Weekly, Daily",
+        "additional_keywords": [
+            "quote",
+            "volume",
+            "US"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "US"
+    },
+    {
+        "interface_name": "stock_us_daily",
+        "description": "Get all historical quote data for a specified U.S. stock",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "quote",
+            "volume",
+            "US"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "US"
+    },
+    {
+        "interface_name": "stock_us_pink_spot_em",
+        "description": "Get real-time quote data for the U.S. over-the-counter (OTC) pink sheet market",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "OTC",
+            "over-the-counter",
+            "pink",
+            "US"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "US"
+    },
+    {
+        "interface_name": "stock_us_spot_em",
+        "description": "Get real-time quote data for all U.S. stocks",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "quote",
+            "volume",
+            "US"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "US"
+    },
+    {
+        "interface_name": "stock_us_hist_min_em",
+        "description": "Get intraday data for a specified U.S. stock within a specified time range",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Minutely, Intraday",
+        "additional_keywords": [
+            "intraday",
+            "quote",
+            "volume",
+            "US"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "US"
+    }
+]

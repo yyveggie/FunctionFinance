@@ -1,0 +1,17 @@
+[
+    {
+        "interface_name": "stock_cyq_em",
+        "description": "Get the chip distribution data for the specified A-shares stock over the last 90 trading days",
+        "data_type": "Technical Analysis Data, Investment Portfolio Statements, Forecast Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "concept",
+            "chip",
+            "distribution",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    }
+]

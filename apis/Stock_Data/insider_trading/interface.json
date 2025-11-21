@@ -1,0 +1,16 @@
+[
+    {
+        "interface_name": "stock_inner_trade_xq",
+        "description": "Get all historical data of insider trading in A-shares market",
+        "data_type": "Insider Trading and Shareholding Patterns, Shareholder and Equity Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "insider",
+            "trading",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    }
+]

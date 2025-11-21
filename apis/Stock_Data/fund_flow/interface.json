@@ -1,0 +1,178 @@
+[
+    {
+        "interface_name": "stock_fund_flow_individual",
+        "description": "Get fund/capital flow ranking data for all A-shares stocks during a specified time period",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "flow",
+            "fund",
+            "capital",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_fund_flow_concept",
+        "description": "Get concept fund/capital flow ranking data for A-shares during a specified time period",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "fund",
+            "flow",
+            "concept",
+            "capital",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_fund_flow_industry",
+        "description": "Get industry fund/capital flow ranking data for A-shares during a specified time period",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "flow",
+            "fund",
+            "capital",
+            "ranking",
+            "industry",
+            "A-Shares"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_fund_flow_big_deal",
+        "description": "Get real-time large order tracking data for on A-shares",
+        "data_type": "Block Trading and Capital Flows Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "big",
+            "large",
+            "tracking",
+            "deal",
+            "A-Shares"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_individual_fund_flow",
+        "description": "Get the fund/capital flow data for a specified A-share stock over the past 100 trading days",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "fund",
+            "flow",
+            "capital",
+            "A-Shares"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "SSE, SZSE, BSE"
+    },
+    {
+        "interface_name": "stock_individual_fund_flow_rank",
+        "description": "Get the individual stock fund flow ranking data for A-shares during a specified period",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "fund",
+            "flow",
+            "ranking",
+            "capital",
+            "A-Shares"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_market_fund_flow",
+        "description": "Get the historical fund/capital flow data of the A-share major market indexes",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "major",
+            "fund",
+            "capital",
+            "flow",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sector_fund_flow_rank",
+        "description": "Get the fund/capital flow ranking data for industry, concept, and regional fund flows within a specified period",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "industry",
+            "fund",
+            "flow",
+            "capital",
+            "ranking",
+            "concept",
+            "region"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sector_fund_flow_summary",
+        "description": "Get the stock fund/capital flows within a specified industry during a specified period",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "-",
+        "frequency": "-",
+        "additional_keywords": [
+            "industry",
+            "fund",
+            "flow",
+            "capital"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sector_fund_flow_hist",
+        "description": "Get historical fund flow data for a specified industry",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "industry",
+            "fund",
+            "capital",
+            "flow"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_concept_fund_flow_hist",
+        "description": "Obtain recent historical fund flow data for a specified concept sector",
+        "data_type": "Block Trading and Capital Flows Data, Investor Sentiment and Behavior",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "concept",
+            "fund",
+            "flow",
+            "capital"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    }
+]

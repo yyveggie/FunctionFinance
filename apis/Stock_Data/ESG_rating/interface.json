@@ -1,0 +1,29 @@
+[
+    {
+        "interface_name": "stock_esg_rate_sina",
+        "description": "Get all data of ESG rating for all stocks listed in Mainland China and Hong Kong",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "rating",
+            "ESG",
+            "HKEX"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "A-Shares, HKEX, SSE, BSE, SZSE"
+    },
+    {
+        "interface_name": "stock_esg_hz_sina",
+        "description": "Get all data of Huazheng index for all A-Shares stocks",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "Huazheng",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "interface_name": "stock_institute_hold",
+        "description": "Get data on changes in institutional holdings for all A-share stocks",
+        "data_type": "Shareholder and Equity Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "institutional",
+            "holdings",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_institute_hold_detail",
+        "description": "Get data on changes in institutional holdings for specific A-share stock",
+        "data_type": "Shareholder and Equity Information",
+        "specific_or_all": "Specific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "institutional",
+            "holdings",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_lhb_jgmmtj_em",
+        "description": "Get daily statistics of institutional buying and selling in the A-share market within a specified time range",
+        "data_type": "Investment Portfolio Statements, Shareholder and Equity Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "institutional",
+            "selling",
+            "buying",
+            "A-Shares",
+            "Dragon",
+            "Tiger"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_lhb_jgstatistic_em",
+        "description": "Get institutional buying and selling information data for stocks on the Dragon and Tiger list within a specified time range",
+        "data_type": "Investment Portfolio Statements, Shareholder and Equity Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "institutional",
+            "buying",
+            "selling",
+            "Dragon",
+            "Tiger"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    }
+]

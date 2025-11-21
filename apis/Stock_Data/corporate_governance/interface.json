@@ -1,0 +1,124 @@
+[
+    {
+        "interface_name": "stock_gpzy_pledge_ratio_detail_em",
+        "description": "Get all detailed information on the pledge of shares by important shareholders in the stock pledge market",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "mortgage",
+            "pledge"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gpzy_industry_data_em",
+        "description": "Get all data on the pledge ratio of listed companies",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "mortgage",
+            "pledge"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gpzy_profile_em",
+        "description": "Get the all historical overview data of the stock pledge market",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "mortgage",
+            "overview",
+            "pledge"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gpzy_distribute_statistics_company_em",
+        "description": "Get historical data on the distribution statistics of pledge institutions for securities companies",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "mortgage",
+            "pledge",
+            "institution"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gpzy_distribute_statistics_bank_em",
+        "description": "Get historical data on the distribution statistics of pledge institutions for banks",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "mortgage",
+            "pledge",
+            "bank"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_gpzy_pledge_ratio_em",
+        "description": "Get the pledge ratio of all listed companies on the specified date",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "pledge",
+            "mortgage"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_cg_guarantee_cninfo",
+        "description": "Get the data of external guarantees by A-share companies within a certain time period",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "external",
+            "guarantees",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_cg_lawsuit_cninfo",
+        "description": "Get the data of company lawsuits by A-share companies within a certain time period",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "lawsuit",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_cg_equity_mortgage_cninfo",
+        "description": "Get the stock pledge data of A-shares on a specified date",
+        "data_type": "Shareholder and Equity Information, Margin Trading and Short Selling Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "mortgage",
+            "pledge",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    }
+]

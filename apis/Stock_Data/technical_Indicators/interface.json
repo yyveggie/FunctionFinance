@@ -1,0 +1,155 @@
+[
+    {
+        "interface_name": "stock_rank_cxg_ths",
+        "description": "Get data on specified A-share stocks reaching new highs within a specified time period",
+        "data_type": "Technical Analysis Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "new",
+            "high",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_cxd_ths",
+        "description": "Get data on specified A-share stocks reaching new lows within a specified time period",
+        "data_type": "Technical Analysis Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "new",
+            "low",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_lxsz_ths",
+        "description": "Get data on A-share stocks with consecutive price increases",
+        "data_type": "Quote Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "consecutive",
+            "increase",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_lxxd_ths",
+        "description": "Get data on A-share stocks with consecutive price declines",
+        "data_type": "Quote Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "consecutive",
+            "decline",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_cxfl_ths",
+        "description": "Get data on A-share stocks with sustained volume increases",
+        "data_type": "Quote Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "sustain",
+            "volume",
+            "increase",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_cxsl_ths",
+        "description": "Get data on A-share stocks with sustained volume decreases",
+        "data_type": "Quote Data, Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "sustain",
+            "volume",
+            "decrease",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_xstp_ths",
+        "description": "Get data of A-Shares stocks with upward breakouts",
+        "data_type": "Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "upward",
+            "breakout",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_xxtp_ths",
+        "description": "Get data of A-Shares stocks with downward breakouts",
+        "data_type": "Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "downward",
+            "breakout",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_ljqs_ths",
+        "description": "Get data on A-share stocks with both volume and price increasing",
+        "data_type": "Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "increase",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_ljqd_ths",
+        "description": "Get data on A-share stocks with both volume and price declining",
+        "data_type": "Technical Analysis Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "decline",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_rank_xzjp_ths",
+        "description": "Get data on A-share stocks with insurance capital holding a significant stake",
+        "data_type": "Technical Analysis Data, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "insurance",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    }
+]

@@ -1,0 +1,277 @@
+[
+    {
+        "interface_name": "stock_zh_a_hist",
+        "description": "Get specific A-shares stock historical daily frequency market data",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Daily, Weekly, Monthly",
+        "additional_keywords": [
+            "quote",
+            "Volume",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_hist_tx",
+        "description": "Get specific A-shares stock daily frequency historical market data",
+        "data_type": "Quote Data",
+        "specific_or_all": "Specific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "quote",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_minute",
+        "description": "Get most recent day market data for a specific A-shares stock at minutes frequency",
+        "data_type": "Quote Data",
+        "specific_or_all": "Specific",
+        "frequency": "Intraday, Minutely, Hourly",
+        "additional_keywords": [
+            "minute",
+            "hour",
+            "quote",
+            "Volume",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_hist_min_em",
+        "description": "Get historical market data for a specific A-shares stock at minutes frequency",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Intraday, Minutely",
+        "additional_keywords": [
+            "minute",
+            "quote",
+            "Volume",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_intraday_em",
+        "description": "Get the transaction data of the specifc A-shares stock for the most recent trading day",
+        "data_type": "Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Tick",
+        "additional_keywords": [
+            "transaction",
+            "volume",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_intraday_sina",
+        "description": "Get the transaction data for the specifc A-shares stock on the specified trading day",
+        "data_type": "Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Tick",
+        "additional_keywords": [
+            "transaction",
+            "volume",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_hist_pre_min_em",
+        "description": "Get market data for a specific A-shares stock at minutes frequency for the most recent trading day",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Minutely",
+        "additional_keywords": [
+            "quote",
+            "volume",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_tick_tx",
+        "description": "Get the tick-by-tick transaction data for the specified A-shares stock on the most recent trading day",
+        "data_type": "Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "Tick",
+        "additional_keywords": [
+            "tick",
+            "Transaction",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_individual_info_em",
+        "description": "Get detailed basic information for a specific A-shares stock",
+        "data_type": "Company/Stock Profile",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "information",
+            "introduction",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_bid_ask_em",
+        "description": "Get the bid and ask data for a specified A-share stock",
+        "data_type": "Volume and Transaction Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "bid",
+            "ask",
+            "Volume",
+            "Transaction",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_a_spot_em",
+        "description": "Get real-time market data for all A-shares stocks",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "quote",
+            "Volume",
+            "Transaction",
+            "Ratios",
+            "A-Shares"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sh_a_spot_em",
+        "description": "Get real-time market data for all stocks listed on the Shanghai Stock Exchange",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "quote",
+            "Volume",
+            "Transaction",
+            "Ratios",
+            "SSE",
+            "Shanghai"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sz_a_spot_em",
+        "description": "Get real-time market data for all stocks listed on the Shenzhen Stock Exchange",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "quote",
+            "Volume",
+            "Transaction",
+            "Ratios",
+            "SZSE",
+            "Shenzhen"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_bj_a_spot_em",
+        "description": "Get real-time market data for all stocks listed on the Beijing Stock Exchange",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "quote",
+            "Volume",
+            "Transaction",
+            "Ratios",
+            "BSE",
+            "Beijing"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_new_a_spot_em",
+        "description": "Get real-time market data for all newly stocks listed on A-shares",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "new",
+            "newly",
+            "Transaction",
+            "Volume",
+            "Ratios",
+            "A-Shares"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_cy_a_spot_em",
+        "description": "Get real-time market data for all companies listed on the Growth Enterprise Market(GEM)",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "Growth Enterprise Market",
+            "GEM",
+            "quote",
+            "Ratios",
+            "Transaction"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_kc_a_spot_em",
+        "description": "Get real-time market data for all companies listed on the STAR board",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "Science and Technology Innovation Board",
+            "STAR",
+            "quote",
+            "Ratios",
+            "Transaction"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_individual_spot_xq",
+        "description": "Get the latest market data for a specific stock on A-shares",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "quote",
+            "Ratios",
+            "Transaction",
+            "A-Shares"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    }
+]

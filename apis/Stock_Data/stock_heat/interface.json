@@ -1,0 +1,184 @@
+[
+    {
+        "interface_name": "stock_hot_follow_xq",
+        "description": "Get A-Shares stocks attention ranking data",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "hot",
+            "attention",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hot_tweet_xq",
+        "description": "Get A-Shares stocks discussion ranking data",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "discussion",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hot_deal_xq",
+        "description": "Get A-shares trading ranking data",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "trading",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hot_rank_wc",
+        "description": "Get the popularity ranking data of A-share stocks for a specified date",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "popularity",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hot_rank_em",
+        "description": "Get the popularity ranking data of the top 100 A-shares stocks before the current trading day",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "popularity",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hot_up_em",
+        "description": "Get the surge ranking data of the top 100 A-shares stocks before the current trading day",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "surge",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hk_hot_rank_em",
+        "description": "Get the popularity ranking data of the top 100 stocks on the Hong Kong Stock Exchange before the current trading day",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "popularity",
+            "ranking",
+            "HKEX"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hot_rank_detail_em",
+        "description": "Get recent ranking and fan characteristics data for a specified A-share stock",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "fans",
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "Recent",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hk_hot_rank_detail_em",
+        "description": "Get recent ranking data for a specified stock on Hong Kong stock Exchange",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "ranking",
+            "HKEX"
+        ],
+        "date_type": "Recent",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hot_rank_detail_realtime_em",
+        "description": "Get recent ranking data for a specified A-share stock",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "ranking",
+            "A-Shares"
+        ],
+        "date_type": "Recent",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hot_keyword_em",
+        "description": "Get the hotspot data for a specified A-share stock on the most recent trading day",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "hotspot",
+            "hot",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hot_search_baidu",
+        "description": "Get the hot search stock data for A-shares, Hong Kong stocks, and U.S. stocks on a specified date and time",
+        "data_type": "Investor Sentiment and Behavior, Social Media and Network Analysis",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "hotspot",
+            "hot",
+            "A-Shares",
+            "HKEX",
+            "US"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "A-Shares, SSE, SZSE, BSE, HKEX, NASDAQ, NYSE"
+    },
+    {
+        "interface_name": "stock_hot_rank_relate_em",
+        "description": "Get recent related stock data for a specified A-share stock",
+        "data_type": "Stock Lists",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "related",
+            "A-Shares"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    }
+]

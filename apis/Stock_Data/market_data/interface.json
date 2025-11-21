@@ -1,0 +1,28 @@
+[
+    {
+        "interface_name": "stock_sector_spot",
+        "description": "Get real-time market data for a specified industry in the A-share market",
+        "data_type": "Volume and Transaction Data, Market Indices and Sentiment Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "industry",
+            "A-Shares"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_lhb_detail_daily_sina",
+        "description": "Get the market data for the Dragon and Tiger list on a specified date",
+        "data_type": "Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "Dragon",
+            "Tiger"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    }
+]

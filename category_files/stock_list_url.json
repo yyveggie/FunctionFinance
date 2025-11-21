@@ -1,0 +1,262 @@
+{
+	"Biggest Companies By Market Cap": {
+		"text": "A list of stocks ranked by market capitalization, updated daily. It includes companies listed in the United States that are traded on the NASDAQ, NYSE and NYSE American. It does not include private companies or over-the-counter stocks.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,marketCap,n,price,",
+		"last url": "&cn=500&f=marketCap-notzero&p=1&dd=true&i=stocks"
+	},
+	"U.S. Companies That Pay The Highest Taxes": {
+		"text": "These are the biggest public companies in the US, sorted by how much they paid in corporate income taxes in the past 12 months.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=incomeTax&s=desc&c=no,s,n,incomeTax,price,",
+		"last url": "&cn=100&f=country-is-United%2520States,incomeTax-notzero&dd=true&i=stocks"
+	},
+	"U.S. Companies With The Most Revenue": {
+		"text": "These are the biggest U.S. companies ranked by total revenue or sales over the past 12 months. It includes companies based in the United States that can be publicly traded on the stock exchange.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=revenue&s=desc&c=no,s,n,revenue,price,",
+		"last url": "&cn=500&f=country-is-United%2520States,revenue-notzero&dd=true&i=stocks"
+	},
+	"Stocks That Pay Monthly Dividends": {
+		"text": "This list includes all the stocks that pay dividends every month and are listed on the NASDAQ, NYSE or NYSE American in the U.S.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=s,n,dividendYield,price,",
+		"last url": "&f=payoutFrequency-is-Monthly,marketCap-notzero&dd=true&i=stocks"
+	},
+	"100 Oldest Publicly Traded Companies": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=founded&s=asc&c=no,s,n,founded,price,",
+		"last url": "&cn=100&f=founded-notzero&dd=true&i=allstocks"
+	},
+	"U.S. Companies With The Most Employees": {
+		"text": "These are the biggest U.S. companies ranked by the total number of employees, updated daily. These are companies based in the United States of America and listed on the stock exchange.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=employees&s=desc&c=no,s,n,employees,price,",
+		"last url": "&cn=100&f=country-is-United%2520States,employees-notzero&dd=true&i=stocks"
+	},
+	"Top-Rated Dividend Stocks": {
+		"text": "This list shows the top rated dividend stocks according to stock analysts. Each stock on the list has an average \"buy\" or \"strong buy\" rating from at least 10 analysts. Each stock also has a dividend yield of at least 2% and a payout ratio under 60%, which indicates that the dividend is sustainable.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=s,n,dividendYield,price,",
+		"last url": "&f=dividendYield-over-2,analystRatings-is-Buy!Strong%2520Buy,analystCount-over-10,payoutRatio-under-60&dd=true&i=stocks"
+	},
+	"Mega-Cap Stocks": {
+		"text": "Mega-cap stocks are defined as having a market capitalization of $200 billion USD or higher. Other categories are Large-Cap, Mid-Cap, Small-Cap, Micro-Cap and Nano-Cap.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=marketCapCategory-is-Mega%253DCap&dd=true&i=stocks"
+	},
+	"Large-Cap Stocks": {
+		"text": "Large-cap stocks are defined as having a market capitalization between $10 and $200 billion USD. Other categories are Mega-Cap, Mid-Cap, Small-Cap, Micro-Cap and Nano-Cap.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=marketCapCategory-is-Large%253DCap&dd=true&i=stocks"
+	},
+	"Mid-Cap Stocks": {
+		"text": "Mid-cap stocks are defined as having a market capitalization between $2 and $10 billion USD. Other categories are Mega-Cap, Large-Cap, Small-Cap, Micro-Cap and Nano-Cap.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&cn=500&f=marketCapCategory-is-Mid%253DCap&p=1&dd=true&i=stocks"
+	},
+	"Small-Cap Stocks": {
+		"text": "Small-cap stocks are defined as having a market capitalization between $300 million and $2 billion USD. Other categories are Mega-Cap, Large-Cap, Mid-Cap, Micro-Cap and Nano-Cap.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&cn=500&f=marketCapCategory-is-Small%253DCap&p=1&dd=true&i=stocks"
+	},
+	"Micro-Cap Stocks": {
+		"text": "Micro-cap stocks are defined as having a market capitalization between $50 and $300 million USD. Other categories are Mega-Cap, Large-Cap, Mid-Cap, Small-Cap and Nano-Cap.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&cn=500&f=marketCapCategory-is-Micro%253DCap&p=1&dd=true&i=stocks"
+	},
+	"Nano-Cap Stocks": {
+		"text": "Nano-cap stocks are defined as having a market capitalization under $50 million USD. Other categories are Mega-Cap, Large-Cap, Mid-Cap, Small-Cap and Micro-Cap.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&cn=500&f=marketCapCategory-is-Nano%253DCap&p=1&dd=true&i=stocks"
+	},
+	"All Stocks Listed on the NASDAQ": {
+		"text": "A list of all the stocks that are currently listed on the NASDAQ stock exchange in the United States.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&cn=500&f=exchange-is-NASDAQ&p=1&i=allstocks"
+	},
+	"All Stocks Listed on the NYSE": {
+		"text": "All of the stocks listed on the NYSE (New York Stock Exchange) in the US.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&cn=500&f=exchange-is-NYSE&p=1&i=allstocks"
+	},
+	"Closed End Funds List": {
+		"text": "A list of all the actively traded closed end funds (CEFs) on the main stock exchanges in the U.S.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=subtype-is-cef&i=allstocks"
+	},
+	"All Active REITs on the US Stock Market": {
+		"text": "These are all the actively traded REITs (Real Estate Investment Trusts) on the US stock market.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=industry-contains-REIT&i=allstocks"
+	},
+	"All Active SPACs on the US Stock Market": {
+		"text": "These are all the actively traded SPACs (Special Purpose Acquisition Companies) on the US stock market. These are also known as blank check companies or shell companies.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=isSpac-is-Yes&i=allstocks"
+	},
+	"Dividend Aristocrats List": {
+		"text": "Dividend aristocrats are companies in the S&P500 index that have been raising their dividends every year for 25 or more years. This is a list of all the dividend aristocrats.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=dividendGrowthYears&s=desc&c=no,s,n,price,dividendGrowthYears,",
+		"last url": "&f=dividendGrowthYears-over-25,inIndex-includes-SP500&i=stocks"
+	},
+	"Dividend Kings List": {
+		"text": "Dividend kings are companies that have been raising their dividend payments every year for 50 or more years. This is a list of all the dividend kings on the US stock market.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=dividendGrowthYears&s=desc&c=no,s,n,price,dividendGrowthYears,",
+		"last url": "&f=dividendGrowthYears-over-50&i=allstocks"
+	},
+	"Dow Jones Industrial Average Stocks List": {
+		"text": "A list of the 30 stocks in the Dow Jones Industrial Average stock index, which is an index of 30 major companies listed on stock exchanges in the U.S.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=inIndex-includes-DOW30&i=stocks"
+	},
+	"NASDAQ 100 Index Stocks List": {
+		"text": "A list of all the stocks in the NASDAQ 100 stock index, which is an index of the top 100 non-financial companies trading on the Nasdaq stock exchange in the U.S. There are a total of 100 companies but 101 stock tickers because Google-parent Alphabet has two separate symbols.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=inIndex-includes-NASDAQ100&i=stocks"
+	},
+	"S&P 500 Index Stocks List": {
+		"text": "A list of all the stocks in the S&P 500 stock index, which is an index of the top 500 biggest companies listed on stock exchanges in the United States. There are a total of 500 companies but more than 500 stock tickers because several companies have more than one stock symbol.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=inIndex-includes-SP500&i=stocks"
+	},
+	"Biggest Artificial Intelligence Stocks": {
+		"text": "This is a list of the top stocks that are directly involved with artificial intelligence (AI) and/or have significant exposure to the growth of AI technology.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-artificial%253Dintelligence&i=allstocks"
+	},
+	"Biggest Augmented Reality Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-augmented%253Dreality&i=allstocks"
+	},
+	"Biggest Bank Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=industry-contains-Banks&dd=true&i=allstocks"
+	},
+	"Biggest Car Company Stocks": {
+		"text": "This is a list of the biggest car company and automaker stocks, ranked by market capitalization.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-car%253Dcompany&i=allstocks"
+	},
+	"Biggest Clean Energy Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-clean%253Denergy&i=allstocks"
+	},
+	"Biggest Electric Vehicle Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-electric%253Dvehicles&i=allstocks"
+	},
+	"Biggest E-Sports Stocks": {
+		"text": "E-Sports stands for \"Electronic Sports.\" It is a term for competition in video games, often over the internet but also via in-person events. Below is a list of stocks of companies involved in e-sports.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-esports&i=allstocks"
+	},
+	"Biggest Gaming Stocks by Market Cap": {
+		"text": "The biggest gaming company stocks, ranked by market cap. This list includes stocks of companies who get a significant percentage of their revenue from video games or gaming-related products.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-gaming&i=allstocks"
+	},
+	"Biggest Metaverse Stocks": {
+		"text": "The metaverse is a concept for virtual environments that people can access through the internet, usually via augmented reality (AR) or virtual reality (VR) devices. Many companies are making huge investments in the metaverse, which is expected to become a big market in the future.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-gaming&i=allstocks"
+	},
+	"Biggest Mobile Game Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-mobile%253Dgames&i=allstocks"
+	},
+	"Biggest Online Dating Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-online%253Ddating&i=allstocks"
+	},
+	"Biggest Online Gambling Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-online%253Dgambling&i=allstocks"
+	},
+	"Biggest Pharmaceutical Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=industry-contains-Drug%2520Manufacturers&dd=true&i=allstocks"
+	},
+	"Biggest Social Media Stocks by Market Cap": {
+		"text": "This list includes stocks of companies who own social networks or have a significant percentage of their operations involved with social media",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-social%253Dmedia&i=allstocks"
+	},
+	"Biggest Sports Betting Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-sports%253Dbetting&i=allstocks"
+	},
+	"Biggest Virtual Reality Stocks": {
+		"text": "None",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=tags-includes-virtual%253Dreality&i=allstocks"
+	},
+	"Canadian Companies on The US Stock Market": {
+		"text": "A complete list of the Canadian companies that are listed on the US stock market. Most of them are also listed in Canada.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=country-is-Canada&dd=true&i=stocks"
+	},
+	"Chinese Companies on The US Stock Market": {
+		"text": "A complete list of the Chinese companies that are listed on the US stock market. Many of them are traded as American Depositary Receipts (ADRs) and are also listed on a stock exchange in China.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=country-is-China!Hong%2520Kong&dd=true&i=stocks"
+	},
+	"Indian Companies on The US Stock Market": {
+		"text": "A complete list of all the Indian companies that are listed on the stock market in the US. Most of them are also listed in India.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=country-is-India&dd=true&i=stocks"
+	},
+	"Irish Companies on The US Stock Market": {
+		"text": "A complete list of all the Irish companies that are listed on the stock market in the US. Many Irish stocks are also listed on Euronext Dublin, the stock exchange in Ireland.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=country-is-Ireland&dd=true&i=stocks"
+	},
+	"Israeli Companies on The US Stock Market": {
+		"text": "A complete list of all the Israeli companies that are listed on the stock market in the US. Many of them are also listed in Israel on the Tel Aviv Stock Exchange.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=country-is-Israel&dd=true&i=stocks"
+	},
+	"British Companies on The US Stock Market": {
+		"text": "A complete list of all the British companies that are listed on the stock market in the US. Many of them are also listed in the United Kingdom on the London Stock Exchange.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,price,marketCap,",
+		"last url": "&f=country-is-United%2520Kingdom&dd=true&i=stocks"
+	},
+	"All Stocks Listed on the NASDAQ": {
+		"text": "A list of all the stocks that are currently listed on the NASDAQ stock exchange in the United States.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&cn=500&f=exchange-is-NASDAQ&p=1&i=allstocks"
+	},
+	"All Stocks Listed on the NYSE": {
+		"text": "All of the stocks listed on the NYSE (New York Stock Exchange) in the US.",
+		"front url": "https://stockanalysis.com/api/screener/s/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&cn=500&f=exchange-is-NYSE&p=1&i=allstocks"
+	},
+	"Toronto Stock Exchange Stocks": {
+		"text": "A list of actively traded stock ticker symbols on the Toronto Stock Exchange (TSX), which is the main stock exchange in Canada. The stocks are sorted by market cap and the list is updated daily. Company financials and stock prices are in Canadian dollars (CAD)",
+		"front url": "https://stockanalysis.com/api/screener/a/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=exchange-is-TSX,subtype-isnot-etf!cef&dd=true&i=symbols"
+	},
+	"London Stock Exchange Stocks": {
+		"text": "A list of actively traded stock ticker symbols on the London Stock Exchange (LSE), which is the main stock exchange in the United Kingdom. The stocks are sorted by market cap and the list is updated daily. Company financials are in British pounds and stock prices are in British pence (0.01 GBP).",
+		"front url": "https://stockanalysis.com/api/screener/a/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=exchange-is-LON,subtype-isnot-etf!cef&dd=true&i=symbols"
+	},
+	"Australian Securities Exchange Stocks": {
+		"text": "A list of actively traded stock ticker symbols on the Australian Securities Exchange (ASX), which is the main stock exchange in Australia. The stocks are sorted by market cap and the list is updated daily. Company financials and stock prices are in Australian dollars (AUD).",
+		"front url": "https://stockanalysis.com/api/screener/a/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=exchange-is-ASX,subtype-isnot-etf!cef&dd=true&i=symbols"
+	},
+	"Nasdaq Iceland Stocks": {
+		"text": "A list of all actively traded stock symbols on Nasdaq Iceland, which is the stock exchange in Iceland. The stocks are sorted by market cap and the list is updated daily. Stock prices and company financials are in the ISK currency (Icelandic krona).",
+		"front url": "https://stockanalysis.com/api/screener/a/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=exchange-is-ICE,subtype-isnot-etf!cef&dd=true&i=symbols"
+	},
+	"Euronext Dublin Stocks": {
+		"text": "A list of all the actively traded stock symbols on Euronext Dublin, which is the stock exchange in Ireland. The stocks are sorted by market cap and the list is updated daily. Currency is EUR. There are also many Irish companies listed on the U.S. stock market.",
+		"front url": "https://stockanalysis.com/api/screener/a/f?m=marketCap&s=desc&c=no,s,n,marketCap,price,",
+		"last url": "&f=exchange-is-ISE&i=symbols"
+	}
+}

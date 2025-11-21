@@ -1,0 +1,60 @@
+[
+    {
+        "interface_name": "stock_board_industry_cons_ths",
+        "description": "Get real-time quote data for constituent stocks of a specified industry in A-shares",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "constituent",
+            "industry",
+            "quote",
+            "A-Shares"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_board_industry_summary_ths",
+        "description": "Get real-time quote data for each industry in the A-share market",
+        "data_type": "Market Indices and Sentiment Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "industry",
+            "quote",
+            "A-Shares"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_board_industry_index_ths",
+        "description": "Get daily quote data for a specified industry in the A-share market within a specified time range",
+        "data_type": "Quote Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Daily",
+        "additional_keywords": [
+            "industry",
+            "quote",
+            "volume",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_board_industry_name_em",
+        "description": "Get real-time market data for all industry sectors in the A-share market",
+        "data_type": "Quote Data, Volume and Transaction Data, Market Indices and Sentiment Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "Real-Time",
+        "additional_keywords": [
+            "industry",
+            "volume",
+            "A-Shares"
+        ],
+        "date_type": "Now",
+        "listed_country_or_region": "China"
+    }
+]

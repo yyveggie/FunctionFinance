@@ -1,0 +1,54 @@
+[
+    {
+        "interface_name": "stock_dzjy_sctj",
+        "description": "Get all market statistics for block trading",
+        "data_type": "Block Trading and Capital Flows Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "block"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_dzjy_mrmx",
+        "description": "Get the block trading data among institutions during the specified time period",
+        "data_type": "Block Trading and Capital Flows Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "block",
+            "institution",
+            "among"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "A-Shares, B-Shares"
+    },
+    {
+        "interface_name": "stock_dzjy_mrtj",
+        "description": "Get the transaction data of block trading stocks within a specified time period",
+        "data_type": "Block Trading and Capital Flows Data, Volume and Transaction Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "block",
+            "various"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "A-Shares"
+    },
+    {
+        "interface_name": "stock_dzjy_hygtj",
+        "description": "Get statistics for active A-shares stocks during the specified time period",
+        "data_type": "Block Trading and Capital Flows Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "active",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "A-Shares"
+    }
+]

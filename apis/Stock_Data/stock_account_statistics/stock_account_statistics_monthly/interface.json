@@ -1,0 +1,15 @@
+[
+    {
+        "interface_name": "stock_account_statistics_em",
+        "description": "Get statistical data of A-share stock accounts",
+        "data_type": "Shareholder and Equity Information, Economic Indicators",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "account",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    }
+]

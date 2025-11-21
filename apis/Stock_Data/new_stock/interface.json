@@ -1,0 +1,73 @@
+[
+    {
+        "interface_name": "stock_zh_a_new_em",
+        "description": "Get the market data for all stocks in the new stock sector for the current trading day",
+        "data_type": "Quote Data, Volume and Transaction Data, Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "new"
+        ],
+        "date_type": "Most Recent Trading Date",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_dxsyl_em",
+        "description": "Get all data on the return rates from initial public offerings (IPOs)",
+        "data_type": "Initial Public Offerings Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "new",
+            "IPO",
+            "return"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_xgsglb_em",
+        "description": "Get data on new stock subscriptions and allotment inquiries for a specified market",
+        "data_type": "Initial Public Offerings Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "new",
+            "subscriptions",
+            "allotment",
+            "IPO"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_ipo_info",
+        "description": "Get basic information data on new stock issues in the A-share market",
+        "data_type": "Initial Public Offerings Data, Company/Stock Profile",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "new",
+            "issues",
+            "IPO",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_new_ipo_cninfo",
+        "description": "Get data on all new stock issues in the A-share market in recent years",
+        "data_type": "Initial Public Offerings Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "new",
+            "issues",
+            "IPO",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    }
+]

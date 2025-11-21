@@ -1,0 +1,83 @@
+[
+    {
+        "interface_name": "stock_info_a_code_name",
+        "description": "Get the list of A-share stock ticker symbol and their corresponding company names",
+        "data_type": "Stock Lists",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "list",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_info_sh_name_code",
+        "description": "Get the list of stock ticker symbol and their corresponding company names from the Shanghai Stock Exchange.",
+        "data_type": "Stock Lists",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "list",
+            "SSE",
+            "Shanghai"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_info_sz_name_code",
+        "description": "Get the list of stock ticker symbol and their corresponding company names from the Shenzhen Stock Exchange",
+        "data_type": "Stock Lists",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "list",
+            "SZSE",
+            "Shenzhen"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_info_bj_name_code",
+        "description": "Get the list of stock ticker symbol and their corresponding company names from the Beijing Stock Exchange",
+        "data_type": "Stock Lists",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "list",
+            "BSE",
+            "Beijing"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "get_industry_list",
+        "description": "Get the complete list of stocks for a specified industry in the U.S. stock market.",
+        "data_type": "Stock Lists",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "list",
+            "industry"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "US"
+    },
+    {
+        "interface_name": "get_sector_list",
+        "description": "Get the complete list of stocks for a specified sector in the U.S. stock market.",
+        "data_type": "Stock Lists",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "list",
+            "sector"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "US"
+    }
+]

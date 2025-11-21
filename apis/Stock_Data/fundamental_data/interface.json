@@ -1,0 +1,673 @@
+[
+    {
+        "interface_name": "stock_gddh_em",
+        "description": "Get all information data about shareholder meetings",
+        "data_type": "Shareholder and Equity Information, Corporate Filings",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "shareholder",
+            "meeting"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zdhtmx_em",
+        "description": "Get details of all significant contracts for A-shares within a specified time period",
+        "data_type": "Shareholder and Equity Information, Corporate Filings",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "significant",
+            "contract",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_research_report_em",
+        "description": "Obtain the earnings forecast data for a specified A-share stock from different institutions",
+        "data_type": "Analyst/Institutional Recommendations/Ratings/Reports, Forecast Data",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "forecast",
+            "earnings",
+            "institution",
+            "A-Shares"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_notice_report",
+        "description": "Get announcements information for A-shares in specific date",
+        "data_type": "Company Announcements",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "announcement",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_financial_report_sina",
+        "description": "Get all historical data of the three major financial statements (balance sheet, income statement, cash flow statement) for a specified A-share stock",
+        "data_type": "Balance Sheets, Income Statements, Cash Flow Statements",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "statements",
+            "balance",
+            "income",
+            "sheet",
+            "cash",
+            "flow",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_balance_sheet_by_report_em",
+        "description": "Get all balance sheet historical data for a specific A-Shares stock, sorted by report period",
+        "data_type": "Balance Sheets",
+        "specific_or_all": "Specific",
+        "frequency": "Reportly",
+        "additional_keywords": [
+            "balance",
+            "sheets",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_balance_sheet_by_yearly_em",
+        "description": "Get all balance sheet historical data for a specific A-Shares stock, sorted by yearly period",
+        "data_type": "Balance Sheets",
+        "specific_or_all": "Specific",
+        "frequency": "Annually",
+        "additional_keywords": [
+            "balance",
+            "sheete",
+            "year",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_profit_sheet_by_report_em",
+        "description": "Get all income statement historical data for a specific A-Shares stock, sorted by report period",
+        "data_type": "Income Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Reportly",
+        "additional_keywords": [
+            "income",
+            "statement",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_profit_sheet_by_yearly_em",
+        "description": "Get all income statement historical data for a specific A-Shares stock, sorted by yearly period",
+        "data_type": "Income Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Annually",
+        "additional_keywords": [
+            "income",
+            "statement",
+            "year",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_profit_sheet_by_quarterly_em",
+        "description": "Get all income statement historical data for a specific A-Shares stock, sorted by quarterly",
+        "data_type": "Income Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "income",
+            "statement",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_cash_flow_sheet_by_report_em",
+        "description": "Get all cash flow statements historical data for a specific A-Shares stock, sorted by report period",
+        "data_type": "Cash Flow Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Reportly",
+        "additional_keywords": [
+            "cash",
+            "flow",
+            "statement",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_cash_flow_sheet_by_yearly_em",
+        "description": "Get all cash flow statements historical data for a specific A-Shares stock, sorted by yearly period",
+        "data_type": "Cash Flow Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Annually",
+        "additional_keywords": [
+            "cash",
+            "flow",
+            "statement",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_cash_flow_sheet_by_quarterly_em",
+        "description": "Get all cash flow statements historical data for a specific A-Shares stock, sorted by quarterly period",
+        "data_type": "Cash Flow Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Quarterly",
+        "additional_keywords": [
+            "cash",
+            "flow",
+            "statement",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_financial_debt_ths",
+        "description": "Get all historical balance sheet data for a specified A-share stock, with options to sort by reporting period, annual, or quarterly",
+        "data_type": "Balance Sheets",
+        "specific_or_all": "Specific",
+        "frequency": "Annually, Quarterly, Reportly",
+        "additional_keywords": [
+            "balance",
+            "sheet",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_financial_benefit_ths",
+        "description": "Get all historical income statement data for a specified A-share stock, with options to sort by reporting period, annual, or quarterly",
+        "data_type": "Income Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Annually, Quarterly, Reportly",
+        "additional_keywords": [
+            "income",
+            "statement",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_financial_cash_ths",
+        "description": "Get all historical cash flow statement data for a specified A-share stock, with options to sort by reporting period, annual, or quarterly",
+        "data_type": "Cash Flow Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Annually, Quarterly, Reportly",
+        "additional_keywords": [
+            "cash",
+            "flow",
+            "statement",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_financial_hk_report_em",
+        "description": "Get all historical data of the three major financial statements (balance sheet, income statement, cash flow statement) for a specified Hong Kong Stock Exchange stock",
+        "data_type": "Balance Sheets, Income Statements, Cash Flow Statements",
+        "specific_or_all": "Specific",
+        "frequency": "Annually, Reportly",
+        "additional_keywords": [
+            "statements",
+            "balance",
+            "sheets",
+            "income",
+            "cash",
+            "flow",
+            "HKEX"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_financial_abstract",
+        "description": "Get historical data of key financial indicators, including various financial ratios and performance metrics for a specific A-share stock",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "key",
+            "indicators",
+            "ratios",
+            "performance",
+            "metrics",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_financial_abstract_ths",
+        "description": "Get historical data of all major financial indicators for a specified A-share stock",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "key",
+            "indicators",
+            "ratios",
+            "performance",
+            "metrics",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_financial_analysis_indicator",
+        "description": "Get historical data of all financial indicators for a specified A-share stock within a specified date range",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "key",
+            "indicators",
+            "ratios",
+            "performance",
+            "metrics",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_financial_hk_analysis_indicator_em",
+        "description": "Get historical data of all financial indicators for a specified Hong Kong Stock Exchenge stock within a specified date range",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "Annually, Reportly",
+        "additional_keywords": [
+            "key",
+            "indicators",
+            "ratios",
+            "performance",
+            "metrics",
+            "HKEX"
+        ],
+        "date_type": "-",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_industry_pe_ratio_cninfo",
+        "description": "Get the industry price-to-earnings (P/E) ratio data for a specified trading day under a specified institutional industry classification",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "industry",
+            "P/E",
+            "price-to-earnings"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_a_indicator_lg",
+        "description": "Get historical individual stock indicators for a specified A-share stock: price-to-earnings ratio, price-to-book ratio, dividend yield",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "P/E",
+            "P/B",
+            "ratio",
+            "dividend",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_a_gxl_lg",
+        "description": "Get all historical dividend yield data for a specified market(including Shanghai A-shares, 'ChiNext', 'STAR Market'",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "dividend",
+            "ChiNext",
+            "STAR",
+            "A-Shares",
+            "Shanghai"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_a_congestion_lg",
+        "description": "Get historical data on market congestion for A-share stocks",
+        "data_type": "Market Indices and Sentiment Data, Risk Management Data, Economic Indicators",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "congestion",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_ebs_lg",
+        "description": "Get all historical stock-bond yield spread data for A-shares",
+        "data_type": "Market Indices and Sentiment Data, Risk Management Data, Economic Indicators",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "equity-bond",
+            "stock-bond",
+            "spread",
+            "bond",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_buffett_index_lg",
+        "description": "Get historical data on the Buffett Indicator",
+        "data_type": "Market Indices and Sentiment Data, Economic Indicators",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "Buffett",
+            "GDP"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_a_ttm_lyr",
+        "description": "Get all equal-weighted price-to-earnings ratio and median price-to-earnings ratio data for A-shares",
+        "data_type": "Financial Ratios, Economic Indicators",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "equal-weighted",
+            "P/E",
+            "median",
+            "price-to-earnings",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_a_all_pb",
+        "description": "Get all equal-weighted and median price-to-book ratio data for A-shares",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "equal-weighted",
+            "P/B",
+            "median",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_market_pe_lg",
+        "description": "Get all historical indices and average price-to-earnings ratio data for a specified market",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "P/E",
+            "price-to-earnings"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_index_pe_lg",
+        "description": "Get historical price-to-earnings ratio data for a specified index in A-shares",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "P/E",
+            "price-to-earnings",
+            "index",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_market_pb_lg",
+        "description": "Get all historical price-to-book ratio data for a specified market",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "price-to-book",
+            "P/B"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_index_pb_lg",
+        "description": "Get historical price-to-book ratio data for a specified index in A-shares",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "price-to-book",
+            "P/B",
+            "index",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_zh_valuation_baidu",
+        "description": "Get valuation data for a specified A-share within a specified time range",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "price-to-earnings",
+            "price-to-book",
+            "price-to-cash",
+            "P/E",
+            "P/B",
+            "TTM",
+            "A-Shares"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hk_indicator_eniu",
+        "description": "Get specific historical financial Ratio data for a specified Hong Kong Stock Exchange stock",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "Price-to-Earnings",
+            "Price-to-Book",
+            "Dividend",
+            "Return",
+            "Equity",
+            "Yield",
+            "P/E",
+            "P/B",
+            "ROE",
+            "HKEX"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_hk_valuation_baidu",
+        "description": "Get valuation data for a specified Hong Kong Stock Exchange within a specified time range",
+        "data_type": "Financial Ratios",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "price-to-earnings",
+            "price-to-book",
+            "price-to-cash",
+            "P/E",
+            "P/B",
+            "TTM",
+            "HKEX"
+        ],
+        "date_type": "Date Range",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_a_high_low_statistics",
+        "description": "Get the number of stocks making new highs and new lows in different markets",
+        "data_type": "Economic Indicators, Risk Management Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "highs",
+            "lows"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_a_below_net_asset_statistics",
+        "description": "Get all historical statistics of stocks trading below book value across different indices for A-shares",
+        "data_type": "Financial Ratios, Risk Management Data, Economic Indicators",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "below",
+            "book",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_report_fund_hold",
+        "description": "Get detailed holding data for a specified holding type(Including 'fund holdings', 'QFII holdings', 'social security holdings', 'brokerage holdings', 'insurance holdings', 'trust holdings') on a specified date",
+        "data_type": "Investment Portfolio Statements, Shareholder and Equity Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "holdings",
+            "fund",
+            "QFII",
+            "brokerage",
+            "trust",
+            "insurance"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_lhb_stock_statistic_em",
+        "description": "Get statistics on individual stocks appearing on the Dragon and Tiger List",
+        "data_type": "Investor Sentiment and Behavior, Market Indices and Sentiment Data, Insider Trading and Shareholding Patterns",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "Dragon and Tiger List"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_lhb_ggtj_sina",
+        "description": "Get statistical data of individual stocks listed on the Dragon and Tiger list within a specified date range",
+        "data_type": "Investor Sentiment and Behavior, Market Indices and Sentiment Dataa, Insider Trading and Shareholding Patterns",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "Dragon and Tiger List"
+        ],
+        "date_type": "Recent Period",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_register_cyb",
+        "description": "Get all historical information data on companies listed on the Growth Enterprise Market (GEM)",
+        "data_type": "Initial Public Offerings Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "Growth",
+            "GEM"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_qbzf_em",
+        "description": "Get data on additional share issuance of new stocks",
+        "data_type": "Initial Public Offerings Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "additional",
+            "new",
+            "issuance"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_pg_em",
+        "description": "Get rights issue data for new stocks",
+        "data_type": "Initial Public Offerings Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "rights",
+            "issues"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_repurchase_em",
+        "description": "Get all historical data on stock repurchase",
+        "data_type": "Company Announcements, Corporate Filings",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "repurchase"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    }
+]

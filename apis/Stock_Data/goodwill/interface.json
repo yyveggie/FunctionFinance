@@ -1,0 +1,73 @@
+[
+    {
+        "interface_name": "stock_sy_yq_em",
+        "description": "Get all goodwill impairment expected details data for A-shares stock",
+        "data_type": "Goodwill Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "impairment",
+            "goodwill",
+            "expected",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sy_em",
+        "description": "Get all individual stock goodwill detail data for A-shares stock",
+        "data_type": "Goodwill Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "individual",
+            "goodwill",
+            "impairment",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sy_jz_em",
+        "description": "Get detailed data on goodwill impairment for all individual A-share stocks",
+        "data_type": "Goodwill Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "individual",
+            "goodwill",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sy_hy_em",
+        "description": "Get goodwill information data for different industries",
+        "data_type": "Goodwill Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "goodwill",
+            "industry"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_sy_profile_em",
+        "description": "Get historical market overview data on goodwill in the A-share market",
+        "data_type": "Goodwill Data",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "goodwill",
+            "overview",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    }
+]

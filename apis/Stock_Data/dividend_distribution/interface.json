@@ -1,0 +1,86 @@
+[
+    {
+        "interface_name": "news_trade_notify_dividend_baidu",
+        "description": "Get the dividend distribution data for Hong Kong Stock Exchange stocks on the specified date",
+        "data_type": "Shareholder and Equity Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "dividends",
+            "distribution",
+            "HKEX"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_fhps_em",
+        "description": "Get the dividend distribution data for A-shares stocks on the specified date",
+        "data_type": "Shareholder and Equity Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "dividends",
+            "distribution",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_fhps_detail_em",
+        "description": "Get the dividend distribution data for A-shares specific stock on the specified date",
+        "data_type": "Shareholder and Equity Information",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "dividend",
+            "distribution",
+            "A-Shares"
+        ],
+        "date_type": "Specific",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_fhps_detail_ths",
+        "description": "Get the dividend financing data for the specified A-share stock",
+        "data_type": "Shareholder and Equity Information, Company Announcements",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "dividend",
+            "financing",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    },
+    {
+        "interface_name": "stock_hk_fhpx_detail_ths",
+        "description": "Get the all dividend distribution data for Hong Kong Stock Exchange specific stock",
+        "data_type": "Shareholder and Equity Information",
+        "specific_or_all": "Specific",
+        "frequency": "-",
+        "additional_keywords": [
+            "dividend",
+            "distribution",
+            "HKEX"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "Hong Kong"
+    },
+    {
+        "interface_name": "stock_history_dividend",
+        "description": "Get the historical dividend data for all A-shares stocks",
+        "data_type": "Shareholder and Equity Information",
+        "specific_or_all": "Nonspecific",
+        "frequency": "-",
+        "additional_keywords": [
+            "dividend",
+            "distribution",
+            "A-Shares"
+        ],
+        "date_type": "Historical",
+        "listed_country_or_region": "China"
+    }
+]
