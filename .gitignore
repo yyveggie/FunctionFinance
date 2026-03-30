@@ -26,3 +26,6 @@ config.ini
 category_files/client_secrets.json
 data_connection/knowledge_base.json
 *.log
+
+# Large model files
+~1/

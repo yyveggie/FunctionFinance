@@ -5,7 +5,9 @@ from langchain.prompts import PromptTemplate, FewShotPromptTemplate
 from langchain.chains import LLMChain
 from datetime import datetime, timedelta
 import os
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
+_CONFIG_DIR = os.path.dirname(os.path.abspath(__file__))
+os.chdir(_CONFIG_DIR)
+TEMP_CONFIG_JSON = os.path.join(_CONFIG_DIR, 'temp_config.json')
 
 
 class Parser:
@@ -95,7 +97,7 @@ class Parser:
             "keyword_en": content_dict["keyword_en"],
         }
 
-        with open('./temp_config.json', 'w', encoding='utf-8') as file:
+        with open(TEMP_CONFIG_JSON, 'w', encoding='utf-8') as file:
             json.dump(data, file, ensure_ascii=False)
 
         res = core.run(self.llm, self.query)
@@ -169,8 +171,11 @@ def get_date_days_offset(given_date, days):
     return new_date.strftime('%Y-%m-%d')
 
 
-with open('./temp_config.json', 'r', encoding='utf-8') as file:
-    temp_config = json.load(file)
+if os.path.isfile(TEMP_CONFIG_JSON):
+    with open(TEMP_CONFIG_JSON, 'r', encoding='utf-8') as file:
+        temp_config = json.load(file)
+else:
+    temp_config = {}
 
 try:
     country = ensure_nested_list(temp_config.get('country'))

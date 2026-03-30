@@ -4,14 +4,13 @@ rootutils.setup_root(__file__, indicator=".project-root", pythonpath=True)
 '''
     从东方财富股吧下载帖子。
 '''
-import time
 import json
 import asyncio
+import re
 from data_connection.mongodb import AsyncMongoConnection
 from proxy_pool.usable_ip import Usable_IP
 from fake_useragent import UserAgent
 import pandas as pd
-from lxml import etree
 
 class Eastmoney_Specific_Company_Post(Usable_IP):
     def __init__(self, ticker, args={}):
@@ -22,27 +21,42 @@ class Eastmoney_Specific_Company_Post(Usable_IP):
         self.ticker = ticker
         self.rounds = 2
 
+    def _extract_article_list(self, html_text, url):
+        match = re.search(r"var\s+article_list\s*=\s*(\{.*?\})\s*;\s*var\s+other_list=", html_text, re.S)
+        if not match:
+            raise ValueError(f"未提取到 article_list，可能是股票代码无效或页面结构变化: {url}")
+
+        payload = json.loads(match.group(1))
+        rows = payload.get('re')
+        if not isinstance(rows, list):
+            raise ValueError(f"article_list.re 结构异常: {url}")
+        return rows
+
     async def download(self, delay=0.5):
         headers = {
             'User-Agent': UserAgent().random
         }
         for page in range(self.rounds):
-            try:
-                url = f"https://guba.eastmoney.com/list,{self.ticker}_{page+1}.html"
-                res = await self.request_get(url=url, headers=headers)
-                res = etree.HTML(res)  # type: ignore
-                res = res.xpath("//script")[3].xpath("text()")[0]
-            except:
-                url = f"https://guba.eastmoney.com/list,us{self.ticker}_{page+1}.html"
-                res = await self.request_get(url=url, headers=headers)
-                res = etree.HTML(res)  # type: ignore
-                res = res.xpath("//script")[3].xpath("text()")[0]
-            article_list, other_list = res.split('var article_list=')[
-                1].strip(";").split(';    var other_list=')
-            article_list = json.loads(article_list)
-            tmp = pd.DataFrame(article_list['re'])
+            mainland_url = f"https://guba.eastmoney.com/list,{self.ticker}_{page+1}.html"
+            us_url = f"https://guba.eastmoney.com/list,us{self.ticker}_{page+1}.html"
+
+            last_error = None
+            rows = None
+
+            for url in (mainland_url, us_url):
+                try:
+                    html_text = await self.request_get(url=url, headers=headers)
+                    rows = self._extract_article_list(html_text, url)
+                    break
+                except Exception as e:
+                    last_error = e
+
+            if rows is None:
+                raise ValueError(f"ticker={self.ticker} page={page+1} 抓取失败: {last_error}")
+
+            tmp = pd.DataFrame(rows)
             self.dataframe = pd.concat([self.dataframe, tmp])
-            time.sleep(delay)
+            await asyncio.sleep(delay)
         dataframe = self.dataframe[['post_title', 'post_publish_time']]
         data_list = dataframe.to_dict(orient='records')
         await self.db_connection.save_data(
@@ -52,15 +66,33 @@ class Eastmoney_Specific_Company_Post(Usable_IP):
 async def main():
     # 获取项目根目录
     project_root = rootutils.find_root(indicator=".project-root")
-    stocks_file_path = os.path.join(project_root, "stocks_en.json")
+    stocks_file_path = os.path.join(project_root, "stocks_cn.json")
 
-    # 读取 stocks_en.json 文件
+    # 读取股票/关键词配置
     try:
         with open(stocks_file_path, "r") as file:
             data = json.load(file)
-            tickers = eval(data["stocks"])
+            raw_tickers = data.get("stocks") or data.get("keywords") or data.get("tickers")
+            if raw_tickers is None:
+                print(f"文件中未找到可用字段，期望: stocks / keywords / tickers, 文件: {stocks_file_path}")
+                return []
+
+            if isinstance(raw_tickers, str):
+                tickers = json.loads(raw_tickers)
+            elif isinstance(raw_tickers, list):
+                tickers = raw_tickers
+            else:
+                print(f"字段类型不支持: {type(raw_tickers).__name__}, 文件: {stocks_file_path}")
+                return []
+
+            if not tickers:
+                print(f"股票列表为空: {stocks_file_path}")
+                return []
     except FileNotFoundError:
         print(f"未找到文件: {stocks_file_path}")
+        return []
+    except json.JSONDecodeError as e:
+        print(f"配置解析失败: {stocks_file_path}, 错误: {e}")
         return []
 
     # 初始化结果记录

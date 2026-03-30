@@ -3,12 +3,13 @@ rootutils.setup_root(__file__, indicator=".project-root", pythonpath=True)
 '''
     下载某个关键词的帖子。
 '''
-from crawler.news.xueqiuSpecificKeywordNews import Xueqiu_Specific_Keyword_Post
+from crawler.news.xueqiuSpecificKeywordNews import Xueqiu_Specific_Keyword_News
 from crawler.post.weiboSpecificKeywordPost import Weibo_Specific_Keyword_Post
 from crawler.post.xSpecificKeywordPost import X_Specific_Keyword_Post
 import threading
 import logging
 import json
+import asyncio
 logging.basicConfig(filename='function_calling.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -30,11 +31,17 @@ class SpecificKeywordPostCrawlerFunctions(object):
         for thread in threads:
             thread.join()
 
+    def _normalize_records(self, data):
+        to_dict = getattr(data, "to_dict", None)
+        if callable(to_dict):
+            return to_dict(orient='records')
+        return data
+
     def X(self):
         x = X_Specific_Keyword_Post(self.keyword)
         try:
             data = x.download()
-            self.alldata["x"] = data.to_dict(orient='records')
+            self.alldata["x"] = self._normalize_records(data)
         except Exception as e:
             logging.error("Error in x_post: %s", e)
             self.alldata["x"] = "Error in collecting data"
@@ -43,16 +50,16 @@ class SpecificKeywordPostCrawlerFunctions(object):
         weibo = Weibo_Specific_Keyword_Post(self.keyword)
         try:
             data = weibo.download()
-            self.alldata["weibo"] = data.to_dict(orient='records')
+            self.alldata["weibo"] = self._normalize_records(data)
         except Exception as e:
             logging.error("Error in weibo_post: %s", e)
             self.alldata["weibo"] = "Error in collecting data"
 
     def XueQiu(self):
-        xueqiu = Xueqiu_Specific_Keyword_Post(self.keyword)
+        xueqiu = Xueqiu_Specific_Keyword_News(self.keyword)
         try:
-            data = xueqiu.download()
-            self.alldata["xueqiu"] = data.to_dict(orient='records')
+            data = asyncio.run(xueqiu.download())
+            self.alldata["xueqiu"] = self._normalize_records(data)
         except Exception as e:
             logging.error("Error in xueqiu_post: %s", e)
             self.alldata["xueqiu"] = "Error in collecting data"
