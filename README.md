@@ -1,93 +1,81 @@
-# FunctionFinance (Ei Agent) 💸
+# FunctionFinance (Ei Agent)
 
 [English](#english) | [中文](#chinese)
 
 <a name="english"></a>
 
-FunctionFinance is an intelligent financial analysis Agent based on Large Language Models (LLM), codenamed "Ei". It aims to provide users with in-depth financial analysis, trend forecasting, and investment advice by combining quantitative financial data with qualitative market information.
+FunctionFinance is a financial analysis agent built on large language models (LLM), codenamed "Ei". It wires together quantitative data (prices, ratios, filings) and text sources (news, posts) for queries, summaries, and scripted workflows—not a substitute for professional advice.
 
-## ✨ Core Features
+## Core features
 
-Ei Agent possesses the following core capabilities:
+*   **Trend forecast**: Price-direction style outputs using technical-style inputs and simple behavioral-finance framing where implemented.
+*   **Report-style analysis**: Chains that produce macro / sector / single-name writeups from retrieved data; task graphs can chain multiple tools.
+*   **Data acquisition**: Crawlers and connectors for Chinese financial sites (e.g. Eastmoney-class sources), plus historical series where available.
+*   **Stock selection**: Portfolio-style suggestions driven by multi-role or debate-style prompts over the same data layer.
+*   **Long-term memory**: FAISS-backed storage for user-related embeddings and past turns so follow-up questions can reuse context.
 
-*   **📈 Trend Forecast**:
-    *   Multi-dimensional prediction of stock price trends combining technical analysis indicators and behavioral finance models.
-*   **📊 Report Analysis**:
-    *   Automatically generates in-depth analysis reports on macroeconomics, specific industries, or individual stocks.
-    *   Supports automatic task orchestration for comprehensive market scanning.
-*   **📰 Data Acquisition**:
-    *   Real-time acquisition of the latest financial news and market dynamics.
-    *   Queries historical financial data (e.g., stock prices, P/E ratios, financial report data).
-*   **🧠 Stock Selection**:
-    *   Investment portfolio optimization suggestions based on a multi-expert debate mechanism.
-    *   Simulates decision-making by experts with different investment styles.
-*   **💾 Long-term Memory**:
-    *   Uses FAISS vector database to store user profiles and historical conversations, providing a personalized service experience.
+## Tech stack
 
-## 🛠️ Tech Stack
+*   **Orchestration**: [LangChain](https://github.com/langchain-ai/langchain), [LangGraph](https://github.com/langchain-ai/langgraph)
+*   **LLM**: OpenAI GPT-4o / GPT-3.5 by default; other providers (e.g. Claude, Llama) via config if you wire them in.
+*   **Vectors**: FAISS
+*   **Data**: In-repo crawlers and parsers aimed at Chinese market sources.
 
-This project is built on the following technology stack:
+## Quick start
 
-*   **Core Framework**: [LangChain](https://github.com/langchain-ai/langchain), [LangGraph](https://github.com/langchain-ai/langgraph)
-*   **LLM**: OpenAI GPT-4o, GPT-3.5 (Supports extension to Claude, Llama 3, etc., via configuration)
-*   **Vector Database**: FAISS
-*   **Data Collection**: Self-developed crawler system (targeting Chinese financial sources like Eastmoney)
-
-## 🚀 Quick Start
-
-### 1. Clone the Project
+### 1. Clone the project
 
 ```bash
 git clone https://github.com/yourusername/FunctionFinance.git
 cd FunctionFinance
 ```
 
-### 2. Install Dependencies
+### 2. Install dependencies
 
-Python 3.9+ environment is recommended.
+Python 3.9+ is recommended.
 
 ```bash
 pip install -r requirements.txt
 ```
-*(Note: If there is no requirements.txt in the project, please manually install dependencies based on code imports, such as `langchain`, `langchain-openai`, `langgraph`, `faiss-cpu`, `colorama`, etc.)*
 
-### 3. Configure API Key
+If `requirements.txt` is missing or incomplete, install from imports (e.g. `langchain`, `langchain-openai`, `langgraph`, `faiss-cpu`, `colorama`).
 
-This project relies on APIs from multiple AI services. For security, **do not directly modify `config.ini`**.
+### 3. Configure API keys
 
-1.  Copy the example configuration file:
-    ```bash
-    cp config.ini.example config.ini
-    ```
-2.  Edit `config.ini` and fill in your API Key:
-    ```ini
-    [OPENAI]
-    API_KEY = sk-xxxxxx
-    ...
-    ```
+Do not commit real secrets. If the repo ships `config.ini.example`, copy it; otherwise create `config.ini` in the project root:
 
-### 4. Run the Agent
+```bash
+cp config.ini.example config.ini   # when the example file exists
+```
+
+```ini
+[OPENAI]
+API_KEY = sk-xxxxxx
+...
+```
+
+### 4. Run the agent
 
 ```bash
 python app.py
 ```
 
-After startup, enter your username in the command line to start conversing with Ei.
+Enter a username at the prompt to start a session.
 
-## 📂 Project Structure
+## Project layout
 
-*   `app.py`: Program entry point, defining Agent workflow and tools.
-*   `scheduler/`: Core scheduling logic, containing specific implementations of each Tool.
-*   `crawler/`: Financial data crawler module.
-*   `config.ini`: Configuration file (Do not upload).
-*   `data_connection/`: Data storage path.
+*   `app.py`: Entry point; agent graph and tool registration.
+*   `scheduler/`: Tool implementations and scheduling.
+*   `crawler/`: Scrapers and fetch helpers.
+*   `config.ini`: Local secrets (gitignored in normal setups).
+*   `data_connection/`: Data paths and glue scripts.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
-*   This project is for learning and research purposes only and does not constitute any investment advice.
-*   Please keep your API Keys safe and do not upload them to public code repositories.
+*   For learning and research only; not investment advice.
+*   Keep API keys out of public repos.
 
-## 📝 License
+## License
 
 [MIT](LICENSE)
 
@@ -97,36 +85,24 @@ After startup, enter your username in the command line to start conversing with 
 
 ## 中文介绍
 
-FunctionFinance 是一个基于大语言模型 (LLM) 的智能金融分析 Agent，代号 "Ei"。它旨在通过结合定量财务数据和定性市场信息，为用户提供深度的金融分析、趋势预测和投资建议。
+FunctionFinance 是基于大语言模型 (LLM) 的金融分析 Agent，代号 Ei。项目把行情/财报等结构化数据和新闻、帖子等文本源接进同一套工具链，用于查询、摘要和可编排的任务流程；输出需自行核验，不能当作投资建议。
 
-## ✨ 核心功能
+## 核心功能
 
-Ei Agent 具备以下核心能力：
+*   **趋势预测**：在已有指标与简单行为金融表述上，生成方向性/解释性输出（实现以代码为准）。
+*   **研报类分析**：通过 LangChain/LangGraph 等链接工具，生成宏观、行业或个股类文字稿；支持多步任务编排。
+*   **数据获取**：自研爬虫与连接器，面向东方财富等中文财经源，并可在部分模块中拉取历史序列数据。
+*   **选股 / 组合建议**：用多角色或辩论式提示在同一数据层上给出组合向建议，属于实验性能力。
+*   **长期记忆**：使用 FAISS 存向量化的用户相关片段与历史对话，便于多轮追问沿用上下文。
 
-*   **📈 趋势预测 (Trend Forecast)**: 
-    *   结合技术分析指标和行为金融学模型，对股票价格趋势进行多维度预测。
-*   **📊 研报分析 (Report Analysis)**: 
-    *   自动生成宏观经济、特定行业或个股的深度分析报告。
-    *   支持自动编排任务，进行全方位的市场扫描。
-*   **📰 数据获取 (Data Acquisition)**: 
-    *   实时获取最新的财经新闻、市场动态。
-    *   查询历史财务数据（如股价、市盈率、财报数据）。
-*   **🧠 智能选股 (Stock Selection)**: 
-    *   基于多专家辩论机制 (Debate) 的投资组合优化建议。
-    *   模拟不同投资风格的专家进行决策。
-*   **💾 长期记忆 (Long-term Memory)**: 
-    *   利用 FAISS 向量数据库存储用户画像和历史对话，提供个性化的服务体验。
+## 技术架构
 
-## 🛠️ 技术架构
+*   **编排**: [LangChain](https://github.com/langchain-ai/langchain), [LangGraph](https://github.com/langchain-ai/langgraph)
+*   **模型**: 默认 OpenAI GPT-4o / GPT-3.5；可按配置接入 Claude、Llama 等（需自行对接）。
+*   **向量库**: FAISS
+*   **数据**: 仓库内爬虫与解析，主要面向 A 股/中文财经站点。
 
-本项目基于以下技术栈构建：
-
-*   **核心框架**: [LangChain](https://github.com/langchain-ai/langchain), [LangGraph](https://github.com/langchain-ai/langgraph)
-*   **大语言模型**: OpenAI GPT-4o, GPT-3.5 (支持通过配置扩展至 Claude, Llama 3 等)
-*   **向量数据库**: FAISS
-*   **数据采集**: 自研爬虫系统 (针对东方财富等中文财经源)
-
-## 🚀 快速开始
+## 快速开始
 
 ### 1. 克隆项目
 
@@ -137,27 +113,27 @@ cd FunctionFinance
 
 ### 2. 安装依赖
 
-建议使用 Python 3.9+ 环境。
+建议使用 Python 3.9+。
 
 ```bash
 pip install -r requirements.txt
 ```
-*(注意：如果项目中没有 requirements.txt，请根据代码 import 手动安装依赖，如 `langchain`, `langchain-openai`, `langgraph`, `faiss-cpu`, `colorama` 等)*
+
+若缺少 `requirements.txt` 或依赖不全，请根据代码中的 `import` 手动安装，例如 `langchain`、`langchain-openai`、`langgraph`、`faiss-cpu`、`colorama` 等。
 
 ### 3. 配置 API Key
 
-本项目依赖多个 AI 服务的 API。为了安全起见，**不要直接修改 `config.ini`**。
+勿把真实密钥提交到仓库。若仓库提供 `config.ini.example` 可复制为 `config.ini`，否则在项目根新建 `config.ini`：
 
-1.  复制示例配置文件：
-    ```bash
-    cp config.ini.example config.ini
-    ```
-2.  编辑 `config.ini`，填入你的 API Key：
-    ```ini
-    [OPENAI]
-    API_KEY = sk-xxxxxx
-    ...
-    ```
+```bash
+cp config.ini.example config.ini   # 存在示例文件时
+```
+
+```ini
+[OPENAI]
+API_KEY = sk-xxxxxx
+...
+```
 
 ### 4. 运行 Agent
 
@@ -165,21 +141,21 @@ pip install -r requirements.txt
 python app.py
 ```
 
-启动后，在命令行输入你的用户名，即可开始与 Ei 进行对话。
+启动后在命令行输入用户名即可开始会话。
 
-## 📂 项目结构
+## 项目结构
 
-*   `app.py`: 程序入口，定义 Agent 工作流和工具。
-*   `scheduler/`: 核心调度逻辑，包含各个 Tool 的具体实现。
-*   `crawler/`: 金融数据爬虫模块。
-*   `config.ini`: 配置文件 (请勿上传)。
-*   `data_connection/`: 数据存储路径。
+*   `app.py`: 入口；Agent 图与工具注册。
+*   `scheduler/`: 调度与各 Tool 实现。
+*   `crawler/`: 爬虫与抓取相关代码。
+*   `config.ini`: 本地配置（通常应被 git 忽略）。
+*   `data_connection/`: 数据路径与连接脚本。
 
-## ⚠️ 注意事项
+## 注意事项
 
-*   本项目仅供学习和研究使用，不构成任何投资建议。
-*   请妥善保管您的 API Key，不要将其上传到公共代码库。
+*   仅供学习与研究，不构成投资建议。
+*   妥善保管 API Key，勿上传到公共代码库。
 
-## 📝 License
+## License
 
 [MIT](LICENSE)
